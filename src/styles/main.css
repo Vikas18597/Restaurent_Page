@@ -1,5 +1,6 @@
 body {
     background-color: rgb(250, 250, 207);
+    font-family: 'Cedarville Cursive';
 }
 #tabs{
     display: flex;
@@ -18,6 +19,11 @@ body {
     background-color: rgb(248, 248, 128);
     cursor: pointer;
 }
+
+#home-page{
+    visibility: visible;
+}
+
 #home-intro {
     text-align: center;
     /* font-size: 2.5vw; */
@@ -50,4 +56,34 @@ body {
 #pic3{
     transform: rotate(7deg);
     margin-top: 2%;
+}
+
+#contact-page{
+    display: grid;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    right: 0;
+    left: 0;
+    font-size: max(2.5vw, 20px);
+    visibility: hidden;
+    font-style: italic;
+}
+#menu-page{
+    display: grid;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    right: 0;
+    left: 0;
+    font-size: max(2.5vw, 20px);
+    visibility: hidden;
+    font-style: italic;
+}
+#menu-img{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: max(40%, 200px);
+    max-height: 700px;
+
 }

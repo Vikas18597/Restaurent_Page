@@ -1,5 +1,3 @@
-// function to add Component(div, li, button, etc)
-
 import addComp from "./index.js"
 
 const home = () => {

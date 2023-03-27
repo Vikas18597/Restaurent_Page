@@ -1,5 +1,5 @@
 
-img {
+img:not(#menu-img){
     --s: 15px;  /* size of the frame */
     --b: 2px;   /* border thickness */
     --w: 400px; /* width of the image */
@@ -18,7 +18,8 @@ img {
     transition: .4s;
     cursor: pointer;
 }
-img:hover {
+
+img:not(#menu-img):hover {
     outline: var(--b) solid var(--c);
     outline-offset: calc(var(--s)/-2);
     --_i: calc(100% - 2*var(--s));
