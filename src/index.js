@@ -1,4 +1,5 @@
 import './styles/main.css'
+import './styles/animation.css'
 import home from "./home.js"
 
 // function to add elements on html 
