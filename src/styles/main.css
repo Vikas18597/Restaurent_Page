@@ -11,7 +11,7 @@ body {
 
 #tabs > * {
     font-family: 'Cedarville Cursive';
-    font-size: 2vw;
+    font-size: max(2vw, 20px);
     width: 100%;
     padding-left: 25%;
     padding-right: 25%;
@@ -20,7 +20,33 @@ body {
 }
 #home-intro {
     text-align: center;
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
+    font-size: max(2.5vw, 25px);
+    min-width: 100px;
     font-style: italic;
     font-family: 'Cedarville Cursive';
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#pics{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#pic1, #pic2, #pic3{
+    flex: 1;
+    margin-left: 1.5%;
+    width: max(20%, 200px);
+    max-height: 400px;
+}
+
+#pic1{
+    transform: rotate(-7deg);
+    margin-top: 2%;
+}
+#pic3{
+    transform: rotate(7deg);
+    margin-top: 2%;
 }
